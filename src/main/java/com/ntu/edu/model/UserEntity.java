@@ -1,4 +1,4 @@
-package com.ntu.edu.entity;
+package com.ntu.edu.model;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;

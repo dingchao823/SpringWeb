@@ -1,6 +1,6 @@
 package com.ntu.edu.service;
 
-import com.ntu.edu.entity.UserEntity;
+import com.ntu.edu.model.UserEntity;
 
 import java.util.List;
 

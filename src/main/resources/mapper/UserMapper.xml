@@ -4,7 +4,7 @@
 <mapper namespace="com.ntu.edu.mapper.UserMapper">
 
     <!-- 此处与接口方法名对应 指定参数类型与返回结果类型-->
-    <insert id="insertFromXml" parameterType="com.ntu.edu.entity.UserEntity">
+    <insert id="insertFromXml" parameterType="com.ntu.edu.model.UserEntity">
         insert into user(name, age)values(#{name}, #{age})
     </insert>
 

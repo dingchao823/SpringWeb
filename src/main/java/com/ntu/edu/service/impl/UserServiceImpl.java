@@ -1,7 +1,6 @@
 package com.ntu.edu.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.ntu.edu.entity.UserEntity;
+import com.ntu.edu.model.UserEntity;
 import com.ntu.edu.mapper.UserMapper;
 import com.ntu.edu.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

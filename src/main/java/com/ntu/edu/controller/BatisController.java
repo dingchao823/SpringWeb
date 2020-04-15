@@ -1,6 +1,6 @@
 package com.ntu.edu.controller;
 
-import com.ntu.edu.entity.UserEntity;
+import com.ntu.edu.model.UserEntity;
 import com.ntu.edu.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
