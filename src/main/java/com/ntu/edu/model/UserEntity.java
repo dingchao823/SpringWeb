@@ -5,8 +5,8 @@ import lombok.Data;
 
 import java.util.Date;
 
-@Data
 @TableName("user")
+@Data
 public class UserEntity {
 
     private String name;
