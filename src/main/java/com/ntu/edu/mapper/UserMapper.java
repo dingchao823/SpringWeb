@@ -17,6 +17,8 @@ public interface UserMapper extends BaseMapper<UserEntity> {
     @Select("select * from user")
     List<UserEntity> query();
 
-    int insertFromXml(UserEntity userEntity);
+    int insertUsingXml(UserEntity userEntity);
+
+    int deleteUsingXml(int id);
 
 }

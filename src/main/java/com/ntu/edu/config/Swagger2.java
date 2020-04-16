@@ -6,6 +6,7 @@ import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -47,11 +48,11 @@ public class Swagger2 {
                 //页面标题
                 .title("Swagger测试")
                 //创建人
-                .contact("dingchao")
+                .contact(new Contact("dingchao", "http://wwww.baidu.com", "dingchao823@163.com"))
                 //版本号
                 .version("1.0")
                 //描述
-                .description("此页面为扬子江soa系统各个接口的测试页面！")
+                .description("此页面是我的测试！")
                 .build();
     }
 

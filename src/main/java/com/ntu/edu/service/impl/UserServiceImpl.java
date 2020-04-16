@@ -26,6 +26,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int insertFromXml(UserEntity userEntity) {
-        return userMapper.insertFromXml(userEntity);
+        return userMapper.insertUsingXml(userEntity);
     }
 }
