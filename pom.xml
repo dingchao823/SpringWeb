@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ntu.edu</groupId>
-    <artifactId>SpringWeb</artifactId>
+    <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-    <name>SpringWeb</name>
-    <description>Springboot for test</description>
+    <packaging>war</packaging>
+    <name>demo</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -86,7 +86,14 @@
             <version>3.3.1.tmp</version>
         </dependency>
 
-        <!-- swagger2 -->
+        <!-- velocity 模板 -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+        <!-- swagger -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
