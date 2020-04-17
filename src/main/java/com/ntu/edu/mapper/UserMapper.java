@@ -5,6 +5,7 @@ import com.ntu.edu.model.UserEntity;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 import java.util.List;
 

@@ -1,16 +1,11 @@
 package com.ntu.edu.controller;
 
-import com.baomidou.mybatisplus.extension.api.R;
 import com.ntu.edu.mapper.UserMapper;
 import com.ntu.edu.model.UserEntity;
-import io.swagger.models.auth.In;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.cache.support.SimpleValueWrapper;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;

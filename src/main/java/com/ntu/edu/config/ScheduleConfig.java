@@ -14,6 +14,10 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * 配置定时任务线程池，如果不定义，所有定时任务会依次进行
+ *
+ */
 @Configuration
 @EnableAsync
 @Slf4j
